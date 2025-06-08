@@ -1,4 +1,5 @@
 # 📊 Data Projects by Almas
+## [Page About me](https://github.com/Almas1989)
 
 Welcome to my portfolio of data projects. This repository includes a selection of hands-on projects using SQL and Python for real-world data analysis tasks. These projects cover exploratory analysis, data cleaning, and correlation analysis—fundamental skills in the data analytics and engineering domains.
 
@@ -67,6 +68,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 ## 📫 Contact
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:yourname@gmail.com)
+
 
 ---
 
