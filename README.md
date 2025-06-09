@@ -1,4 +1,4 @@
-# 📊 Data Projects by Almas
+# 📊 Data Projects
 ## [Page About me](https://github.com/Almas1989)
 
 Welcome to my portfolio of data projects. This repository includes a selection of hands-on projects using SQL and Python for real-world data analysis tasks. These projects cover exploratory analysis, data cleaning, and correlation analysis—fundamental skills in the data analytics and engineering domains.
@@ -65,10 +65,21 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 📫 Contact
+### 4. 🧪 A/B Test – Marketing Campaign Analysis (Python)
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:yourname@gmail.com)
+- **Description**:  
+  This project evaluates the effectiveness of a new landing page through A/B testing. The analysis includes:
+  - Comparing conversion rates between control (Group A) and treatment (Group B)
+  - Conducting a z-test to assess statistical significance
+  - Visualizing results and drawing business conclusions
 
+  The goal was to simulate a real-world decision-making process using hypothesis testing.
+
+- **Skills Practiced**: A/B testing, hypothesis testing, statistical analysis, data visualization
+
+- **Technologies**: Python, Pandas, SciPy, Seaborn, Matplotlib
+
+- **File**: [AB_Test.ipynb on Kaggle](https://www.kaggle.com/code/almasscorp/ab-test)
 
 ---
 
