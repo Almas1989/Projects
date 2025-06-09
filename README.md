@@ -7,7 +7,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ## 📁 Projects Overview
 
-## 1. 🔍 Exploratory Data Analysis (SQL)
+## 1. 🔍 [Exploratory Data Analysis (SQL)](https://github.com/Almas1989/Projects/blob/main/Exploratory%20Data%20Analysis.sql)
 
 - **Description**:  
   This project demonstrates exploratory data analysis using SQL on a structured dataset. It includes operations such as:
@@ -22,11 +22,9 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 - **Technologies**: SQL (PostgreSQL-compatible)
 
-- **File**: [Exploratory_Data_Analysis.sql](https://github.com/Almas1989/Projects/blob/main/Exploratory%20Data%20Analysis.sql)
-
 ---
 
-## 2. 🎬 Movie Correlation Project (Python)
+## 2. 🎬 [Movie Correlation Project (Python)](https://github.com/Almas1989/Projects/blob/main/Movie%20Correlation%20Proj.ipynb)
 
 - **Description**:  
   This Jupyter Notebook investigates how different variables (budget, gross revenue, runtime, etc.) relate to each other in a movie dataset. Steps included:
@@ -41,11 +39,9 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 - **Technologies**: Python, Pandas, Seaborn, Matplotlib
 
-- **File**: [Movie_Correlation_Proj.ipynb](https://github.com/Almas1989/Projects/blob/main/Movie%20Correlation%20Proj.ipynb)
-
 ---
 
-## 3. 🧹 SQL Data Cleaning
+## 3. 🧹 [SQL Data Cleaning](https://github.com/Almas1989/Projects/blob/main/SQL%20Data%20Cleaning.sql)
 
 - **Description**:  
   A comprehensive SQL script that focuses on cleaning a messy raw dataset to make it analysis-ready. Tasks performed include:
@@ -61,11 +57,9 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 - **Technologies**: SQL (MySQL/PostgreSQL-compatible)
 
-- **File**: [SQL_Data_Cleaning.sql](https://github.com/Almas1989/Projects/blob/main/SQL%20Data%20Cleaning.sql)
-
 ---
 
-## 4. 🧪 A/B Test – Marketing Campaign Analysis (Python)
+## 4. 🧪 [A/B Test – Marketing Campaign Analysis (Python)](https://www.kaggle.com/code/almasscorp/ab-test)
 
 - **Description**:  
   This project evaluates the effectiveness of a new landing page through A/B testing. The analysis includes:
@@ -78,8 +72,6 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 - **Skills Practiced**: A/B testing, hypothesis testing, statistical analysis, data visualization
 
 - **Technologies**: Python, Pandas, SciPy, Seaborn, Matplotlib
-
-- **File**: [AB_Test.ipynb on Kaggle](https://www.kaggle.com/code/almasscorp/ab-test)
 
 ---
 
