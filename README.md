@@ -1,5 +1,5 @@
 # 📊 Data Projects
-## [Page About me](https://github.com/Almas1989)
+## [Main page](https://github.com/Almas1989)
 
 Welcome to my portfolio of data projects. This repository includes a selection of hands-on projects using SQL and Python for real-world data analysis tasks. These projects cover exploratory analysis, data cleaning, and correlation analysis—fundamental skills in the data analytics and engineering domains.
 
@@ -7,7 +7,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ## 📁 Projects Overview
 
-### 1. 🔍 Exploratory Data Analysis (SQL)
+## 1. 🔍 Exploratory Data Analysis (SQL)
 
 - **Description**:  
   This project demonstrates exploratory data analysis using SQL on a structured dataset. It includes operations such as:
@@ -26,7 +26,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-### 2. 🎬 Movie Correlation Project (Python)
+## 2. 🎬 Movie Correlation Project (Python)
 
 - **Description**:  
   This Jupyter Notebook investigates how different variables (budget, gross revenue, runtime, etc.) relate to each other in a movie dataset. Steps included:
@@ -45,7 +45,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-### 3. 🧹 SQL Data Cleaning
+## 3. 🧹 SQL Data Cleaning
 
 - **Description**:  
   A comprehensive SQL script that focuses on cleaning a messy raw dataset to make it analysis-ready. Tasks performed include:
@@ -65,7 +65,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-### 4. 🧪 A/B Test – Marketing Campaign Analysis (Python)
+## 4. 🧪 A/B Test – Marketing Campaign Analysis (Python)
 
 - **Description**:  
   This project evaluates the effectiveness of a new landing page through A/B testing. The analysis includes:
