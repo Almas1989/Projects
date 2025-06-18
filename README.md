@@ -75,4 +75,21 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
+## 5. 📂 [CSV Processor – Automated Data Cleaning (Python)](https://github.com/Almas1989/csv_processor)
+
+- **Description**:  
+  This project automates the processing of raw CSV files to prepare them for analysis. It includes:  
+  - Reading input CSVs and handling encoding issues  
+  - Cleaning data by removing empty rows and standardizing column formats  
+  - Filtering and transforming specific fields (e.g., renaming, converting values)  
+  - Saving the cleaned output to a new CSV file  
+  
+  The goal was to streamline repetitive preprocessing steps in data workflows.
+
+- **Skills Practiced**: Data preprocessing, automation, file handling, basic ETL logic
+
+- **Technologies**: Python, Pandas, CSV module
+
+---
+
 ⭐ If you find these projects helpful, please give the repository a star and feel free to connect!
