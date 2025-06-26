@@ -92,4 +92,23 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
+## 📚 [Wikipedia Parser – Async Scraper + AI Summarizer](https://github.com/Almas1989/wiki_parser)
+
+- **Description**:  
+  Asynchronous API that recursively scrapes Wikipedia articles (up to 5 levels deep) and generates AI-powered summaries using DeepSeek API. Parsed articles, their relationships, and summaries are stored in a PostgreSQL database.
+
+- **Features**:  
+  - Recursive Wikipedia parsing with parent-child relations  
+  - AI-generated summaries for articles  
+  - Async FastAPI backend with PostgreSQL  
+  - Fully Dockerized for easy deployment  
+
+- **Skills Practiced**:  
+  Async Python, API development, web scraping, AI API integration, PostgreSQL, Docker  
+
+- **Technologies**:  
+  Python, FastAPI, SQLAlchemy (async), PostgreSQL, BeautifulSoup, DeepSeek API, Docker  
+
+---
+
 ⭐ If you find these projects helpful, please give the repository a star and feel free to connect!
