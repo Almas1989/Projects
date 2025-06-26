@@ -92,7 +92,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 📚 [Wikipedia Parser – Async Scraper + AI Summarizer](https://github.com/Almas1989/wiki_parser)
+## 6. 📚 [Wikipedia Parser – Async Scraper + AI Summarizer](https://github.com/Almas1989/wiki_parser)
 
 - **Description**:  
   Asynchronous API that recursively scrapes Wikipedia articles (up to 5 levels deep) and generates AI-powered summaries using DeepSeek API. Parsed articles, their relationships, and summaries are stored in a PostgreSQL database.
