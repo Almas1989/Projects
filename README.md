@@ -111,4 +111,26 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
+## 7. 🍽️ [Restaurant Dish Detection – YOLOv11 Object Detector](https://github.com/Almas1989/comp_vision_proj)
+
+- **Description**:  
+  End-to-end object detection pipeline for recognizing 6 classes of dishes and tableware in restaurant settings. Built using YOLOv11 with custom training, evaluation, and video visualization. Data preparation includes manual annotation, augmentation, and class balancing.
+
+- **Features**:  
+  - Frame extraction from video (1 frame / 5 seconds)  
+  - Manual annotation with LabelImg (YOLO format)  
+  - 6 dish categories: tea, salads, kebab, chicken steak, soup, empty dishes  
+  - Data augmentation with Albumentations  
+  - Two-stage training with YOLOv11n and evaluation via mAP, Precision, Recall, F1  
+  - Output visualization in labeled video  
+  - Result analysis with per-class metrics and error matrix  
+
+- **Skills Practiced**:  
+  Object detection, dataset creation, model training & tuning, metrics analysis, OpenCV, Albumentations, YOLOv11
+
+- **Technologies**:  
+  Python, OpenCV, LabelImg, Albumentations, YOLOv11, PyTorch
+
+---
+
 ⭐ If you find these projects helpful, please give the repository a star and feel free to connect!
