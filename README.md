@@ -1,4 +1,4 @@
-# 📊 Data Projects
+# 📊 Projects
 ## [Main page](https://github.com/Almas1989)
 
 Welcome to my portfolio of data projects. This repository includes a selection of hands-on projects using SQL and Python for real-world data analysis tasks. These projects cover exploratory analysis, data cleaning, and correlation analysis—fundamental skills in the data analytics and engineering domains.
