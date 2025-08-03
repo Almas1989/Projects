@@ -7,10 +7,13 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ## 📁 Projects Overview
 
-## 1. 🔍 [Exploratory Data Analysis (SQL)](https://github.com/Almas1989/Projects/blob/main/Exploratory%20Data%20Analysis.sql)
+## 1. 🔍 [Data cleaning and Exploratory Data Analysis (MySQL)](https://github.com/Almas1989/Projects/tree/main/EDA_MySQL)
+
+[Dataset](https://github.com/Almas1989/Projects/blob/main/EDA_MySQL/layoffs.csv)
 
 - **Description**:  
   This project demonstrates exploratory data analysis using SQL on a structured dataset. It includes operations such as:
+  - Handling and replacing `NULL` values, Standardizing formats (e.g., date and text case), Removing duplicates, Creating temporary clean views and applying transformation logic, Renaming columns for clarity and better readability
   - Identifying trends through grouping and filtering
   - Calculating statistical aggregates like averages, counts, and percentages
   - Using `CASE` statements to classify data
@@ -18,48 +21,36 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
   The goal was to simulate a typical data exploration workflow within a relational database before building dashboards or models.
 
-- **Skills Practiced**: SQL querying, aggregations, conditional logic, pattern recognition
+- **Skills Practiced : `Data cleaning, SQL scripting, formatting, NULL handling, view creation, aggregations, conditional logic, pattern recognition, CTE and window functions`**
 
-- **Technologies**: SQL (PostgreSQL-compatible)
+- **STACK**: MySQL (PostgreSQL-compatible)
 
 ---
 
-## 2. 🎬 [Movie Correlation Project (Python)](https://github.com/Almas1989/Projects/blob/main/Movie%20Correlation%20Proj.ipynb)
+## 2. 🎬 [Movie Correlation Project (Python)](https://github.com/Almas1989/Projects/tree/main/Movie_correllation)
+
+- [**Dataset**](https://github.com/Almas1989/movie_corel/blob/main/movies.csv)
+- [**REPORT**](https://github.com/Almas1989/movie_corel/blob/main/report.md)
+- [**Jupyter notebook with code**](https://github.com/Almas1989/movie_corel/blob/main/movie_corell.ipynb)
 
 - **Description**:  
   This Jupyter Notebook investigates how different variables (budget, gross revenue, runtime, etc.) relate to each other in a movie dataset. Steps included:
   - Data cleaning and preprocessing using `pandas`
-  - Visualizing distributions and relationships with `matplotlib` and `seaborn`
-  - Calculating correlation coefficients (Pearson) and plotting a heatmap
+  - Visualizing distributions and relationships with `plotly.express`
+  - Calculating correlation and plotting a heatmap
   - Identifying which variables strongly affect a movie’s box office success
 
   The notebook helps answer business questions like: "Do bigger budgets lead to higher gross?" or "Which factors most influence revenue?"
 
-- **Skills Practiced**: Exploratory data analysis, feature correlation, data visualization, Python scripting
+- **Skills Practiced: `Exploratory data analysis, feature correlation, data visualization, Python scripting`**
 
-- **Technologies**: Python, Pandas, Seaborn, Matplotlib
+- **STACK**: Python, Pandas, Plotly.express, Jupyter Notebook
 
----
-
-## 3. 🧹 [SQL Data Cleaning](https://github.com/Almas1989/Projects/blob/main/SQL%20Data%20Cleaning.sql)
-
-- **Description**:  
-  A comprehensive SQL script that focuses on cleaning a messy raw dataset to make it analysis-ready. Tasks performed include:
-  - Handling and replacing `NULL` values
-  - Standardizing formats (e.g., date and text case)
-  - Removing duplicates
-  - Creating temporary clean views and applying transformation logic
-  - Renaming columns for clarity and better readability
-
-  This project reflects a common scenario in data engineering and business analytics where raw data from sources like Excel or CSV must be cleaned before use.
-
-- **Skills Practiced**: Data cleaning, SQL scripting, formatting, NULL handling, view creation
-
-- **Technologies**: SQL (MySQL/PostgreSQL-compatible)
+![Correlation matrix](https://github.com/Almas1989/movie_corel/blob/main/10.png)
 
 ---
 
-## 4. 🧪 [A/B Test – Marketing Campaign Analysis (Python)](https://www.kaggle.com/code/almasscorp/ab-test)
+## 3. 🧪 [A/B Test – Marketing Campaign Analysis (Python)](https://www.kaggle.com/code/almasscorp/ab-test)
 
 - **Description**:  
   This project evaluates the effectiveness of a new landing page through A/B testing. The analysis includes:
@@ -71,7 +62,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 - **Skills Practiced**: A/B testing, hypothesis testing, statistical analysis, data visualization
 
-- **Technologies**: Python, Pandas, SciPy, Seaborn, Matplotlib
+- **STACK**: Python, Pandas, SciPy, Seaborn, Matplotlib
 
 ---
 
@@ -88,7 +79,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 - **Skills Practiced**: Data preprocessing, automation, file handling, basic ETL logic
 
-- **Technologies**: Python, Pandas, CSV module
+- **STACK**: Python, Pandas, CSV module
 
 ---
 
@@ -106,7 +97,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 - **Skills Practiced**:  
   Async Python, API development, web scraping, AI API integration, PostgreSQL, Docker  
 
-- **Technologies**:  
+- **STACK**:  
   Python, FastAPI, SQLAlchemy (async), PostgreSQL, BeautifulSoup, DeepSeek API, Docker  
 
 ---
@@ -128,7 +119,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 - **Skills Practiced**:  
   Object detection, dataset creation, model training & tuning, metrics analysis, OpenCV, Albumentations, YOLOv11
 
-- **Technologies**:  
+- **STACK**:  
   Python, OpenCV, LabelImg, Albumentations, YOLOv11, PyTorch
 
 ---
