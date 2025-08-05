@@ -27,7 +27,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 2. 🎬 [Movie Correlation Project (Python)](https://github.com/Almas1989/Projects/tree/main/Movie_correllation)
+## 2. 🎬 [Movie Correlation Project (Python)](https://github.com/Almas1989/movie_corel)
 
 - [**Dataset**](https://github.com/Almas1989/movie_corel/blob/main/movies.csv)
 - [**REPORT**](https://github.com/Almas1989/movie_corel/blob/main/report.md)
