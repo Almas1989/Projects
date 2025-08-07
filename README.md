@@ -68,6 +68,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ## 4. 📈 [Marketing Cohort Analysis (Python)](https://github.com/Almas1989/marketing_cohort_analysis)
 
+- [**Dataset**](https://github.com/Almas1989/marketing_cohort_analysis/tree/main/marketing_dataset)
 - [**Jupyter notebook with code**](https://github.com/Almas1989/marketing_cohort_analysis/blob/main/marketing-insights-for-e-commerce-company.ipynb)
 
 - **Description**:  
@@ -83,8 +84,6 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 - **Skills Practiced: `Cohort analysis, retention analysis, data cleaning, data visualization, pandas transformations`**
 
 - **STACK**: Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
-
-![Cohort heatmap](https://github.com/Almas1989/marketing_cohort_analysis/blob/main/images/cohort_heatmap.png)
 
 ---
 
