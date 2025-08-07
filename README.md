@@ -66,6 +66,28 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
+## 4. 📈 [Marketing Cohort Analysis (Python)](https://github.com/Almas1989/marketing_cohort_analysis)
+
+- [**Jupyter notebook with code**](https://github.com/Almas1989/marketing_cohort_analysis/blob/main/marketing-insights-for-e-commerce-company.ipynb)
+
+- **Description**:  
+  This project analyzes the **retention** and **purchase behavior** of customers for an e-commerce company using **cohort analysis**. The notebook walks through:
+  - Cleaning and transforming user transaction data with `pandas`
+  - Assigning cohort groups based on user acquisition month
+  - Calculating retention rates across cohorts
+  - Visualizing cohort retention heatmaps with `seaborn` and `matplotlib`
+  - Deriving insights about user engagement and drop-off patterns
+
+  This type of analysis is commonly used by product teams and marketing analysts to understand customer lifecycle, evaluate loyalty, and improve retention strategies.
+
+- **Skills Practiced: `Cohort analysis, retention analysis, data cleaning, data visualization, pandas transformations`**
+
+- **STACK**: Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
+
+![Cohort heatmap](https://github.com/Almas1989/marketing_cohort_analysis/blob/main/images/cohort_heatmap.png)
+
+---
+
 ## 5. 📂 [CSV Processor – Automated Data Cleaning (Python)](https://github.com/Almas1989/csv_processor)
 
 - **Description**:  
