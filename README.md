@@ -7,7 +7,34 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ## 📁 Projects Overview
 
-## 1. 🔍 [Data cleaning and Exploratory Data Analysis (MySQL)](https://github.com/Almas1989/Projects/tree/main/EDA_MySQL)
+## 1. 🧮 [SQL vs Pandas — Salary Analytics Practice (DuckDB)](https://github.com/Almas1989/SQL_vs_pandas)
+
+- [**Dataset**](https://github.com/Almas1989/SQL_vs_pandas/blob/main/salaries_clean.csv)
+- [**EDA Notebook (SQL + Pandas)**](https://github.com/Almas1989/SQL_vs_pandas/blob/main/EDA(SQL,pandas).ipynb)
+- [**SQL Practice 1**](https://github.com/Almas1989/SQL_vs_pandas/blob/main/SQL_pract_1.ipynb)
+- [**SQL Practice 2 (Advanced)**](https://github.com/Almas1989/SQL_vs_pandas/blob/main/SQL_pract_2.ipynb)
+
+- **Description**:  
+  Interactive Jupyter notebooks for practicing SQL analytics using DuckDB on IT salary data from Kazakhstan. The project demonstrates a wide range of SQL patterns and techniques:
+  - Data loading with `read_csv_auto` into in-memory DuckDB tables
+  - Filtering & subqueries: `WHERE`, `EXISTS`, `IN`, `BETWEEN`, `ANY`, `ALL`
+  - Aggregations: `AVG`, `SUM`, `COUNT`, `MIN`, `MAX`, `MEDIAN`, `ARRAY_AGG`
+  - Window functions: `ROW_NUMBER`, `RANK`, `DENSE_RANK`, `PERCENT_RANK`, `LAG`, `LEAD`, `FIRST_VALUE`, `LAST_VALUE`
+  - Named windows (`WINDOW` clause) and window filtering with `QUALIFY`
+  - Hierarchical grouping: `ROLLUP`, `CUBE`, `GROUPING SETS`
+  - Pivoting: `PIVOT` and manual `CASE`-based pivots
+  - Time-series analysis: `DATE_TRUNC`, `EXTRACT`, rolling 90-day averages with `RANGE BETWEEN INTERVAL`
+  - CTEs for cleaner query structure
+
+  Typical analyses include: Top-N salaries per city/profession, grade-level comparisons, percentile rankings, period-over-period changes, and multi-level hierarchical summaries.
+
+- **Skills Practiced**: `SQL analytics, window functions, QUALIFY, named windows, ROLLUP/CUBE, pivoting, time-series analysis, DuckDB, CTEs, subqueries`
+
+- **STACK**: Python, DuckDB, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
+
+---
+
+## 2. 🔍 [Data cleaning and Exploratory Data Analysis (MySQL)](https://github.com/Almas1989/Projects/tree/main/EDA_MySQL)
 
 [Dataset](https://github.com/Almas1989/Projects/blob/main/EDA_MySQL/layoffs.csv)
 
@@ -27,7 +54,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 2. 🎬 [Movie Correlation Project (Python)](https://github.com/Almas1989/movie_corel)
+## 3. 🎬 [Movie Correlation Project (Python)](https://github.com/Almas1989/movie_corel)
 
 - [**Dataset**](https://github.com/Almas1989/movie_corel/blob/main/movies.csv)
 - [**REPORT**](https://github.com/Almas1989/movie_corel/blob/main/report.md)
@@ -50,7 +77,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 3. 🧪 [A/B Test – Marketing Campaign Analysis (Python)](https://www.kaggle.com/code/almasscorp/ab-test)
+## 4. 🧪 [A/B Test – Marketing Campaign Analysis (Python)](https://www.kaggle.com/code/almasscorp/ab-test)
 
 - **Description**:  
   This project evaluates the effectiveness of a new landing page through A/B testing. The analysis includes:
@@ -66,7 +93,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 4. 📈 [Marketing Cohort Analysis (Python)](https://github.com/Almas1989/marketing_cohort_analysis)
+## 5. 📈 [Marketing Cohort Analysis (Python)](https://github.com/Almas1989/marketing_cohort_analysis)
 
 - [**Dataset**](https://github.com/Almas1989/marketing_cohort_analysis/tree/main/marketing_dataset)
 - [**Jupyter notebook with code**](https://github.com/Almas1989/marketing_cohort_analysis/blob/main/marketing-insights-for-e-commerce-company.ipynb)
@@ -87,7 +114,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 5. 📂 [CSV Processor – Automated Data Cleaning (Python)](https://github.com/Almas1989/csv_processor)
+## 6. 📂 [CSV Processor – Automated Data Cleaning (Python)](https://github.com/Almas1989/csv_processor)
 
 - **Description**:  
   This project automates the processing of raw CSV files to prepare them for analysis. It includes:  
@@ -104,7 +131,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 6. 📚 [Wikipedia Parser – Async Scraper + AI Summarizer](https://github.com/Almas1989/wiki_parser)
+## 7. 📚 [Wikipedia Parser – Async Scraper + AI Summarizer](https://github.com/Almas1989/wiki_parser)
 
 - **Description**:  
   Asynchronous API that recursively scrapes Wikipedia articles (up to 5 levels deep) and generates AI-powered summaries using DeepSeek API. Parsed articles, their relationships, and summaries are stored in a PostgreSQL database.
@@ -123,7 +150,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 7. 🍽️ [Restaurant Dish Detection – YOLOv11 Object Detector](https://github.com/Almas1989/comp_vision_proj)
+## 8. 🍽️ [Restaurant Dish Detection – YOLOv11 Object Detector](https://github.com/Almas1989/comp_vision_proj)
 
 - **Description**:  
   End-to-end object detection pipeline for recognizing 6 classes of dishes and tableware in restaurant settings. Built using YOLOv11 with custom training, evaluation, and video visualization. Data preparation includes manual annotation, augmentation, and class balancing.
