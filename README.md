@@ -7,7 +7,26 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ## 📁 Projects Overview
 
-## 1. 🧮 [SQL vs Pandas — Salary Analytics Practice (DuckDB)](https://github.com/Almas1989/SQL_vs_pandas)
+## 1. 🌍 [Earthquake Data ETL Pipeline (Airflow + Docker)](https://github.com/Almas1989/data_engineering_pp_1)
+
+- [**Repository**](https://github.com/Almas1989/data_engineering_pp_1)
+- [**DAGs Code**](https://github.com/Almas1989/data_engineering_pp_1/tree/main/dags)
+- [**Infrastructure Config**](https://github.com/Almas1989/data_engineering_pp_1/blob/main/docker-compose.yaml)
+
+- **Description**:  
+  A full-cycle End-to-End Data Engineering project that deploys a containerized data platform. The pipeline automates the ingestion of real-time earthquake data from the USGS API. Key workflow stages include:
+  - **Ingestion**: Fetches raw JSON data and stores it in an S3-compatible object storage (MinIO) to ensure data historicity (Bronze Layer).
+  - **Processing**: Orchestrates ETL workflows using Apache Airflow to parse and load data into PostgreSQL (Silver Layer).
+  - **Analytics**: Transforms data via SQL to create business-ready data marts (Gold Layer) for tracking daily event counts and magnitude averages.
+  - **Infrastructure**: Fully Dockerized environment managed via Docker Compose including Metabase for visualization.
+
+- **Skills Practiced**: `ETL pipeline design, Airflow orchestration, Data Modeling (Bronze/Silver/Gold), API integration, S3 Data Lake management, Docker containerization, SQL transformations`
+
+- **STACK**: Python, Apache Airflow, PostgreSQL, MinIO (S3), Docker, Metabase, Pandas
+
+---
+
+## 2. 🧮 [SQL vs Pandas — Salary Analytics Practice (DuckDB)](https://github.com/Almas1989/SQL_vs_pandas)
 
 - [**Dataset**](https://github.com/Almas1989/SQL_vs_pandas/blob/main/salaries_clean.csv)
 - [**EDA Notebook (SQL + Pandas)**](https://github.com/Almas1989/SQL_vs_pandas/blob/main/EDA(SQL,pandas).ipynb)
@@ -34,7 +53,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 2. 🔍 [Data cleaning and Exploratory Data Analysis (MySQL)](https://github.com/Almas1989/Projects/tree/main/EDA_MySQL)
+## 3. 🔍 [Data cleaning and Exploratory Data Analysis (MySQL)](https://github.com/Almas1989/Projects/tree/main/EDA_MySQL)
 
 [Dataset](https://github.com/Almas1989/Projects/blob/main/EDA_MySQL/layoffs.csv)
 
@@ -54,7 +73,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 3. 🎬 [Movie Correlation Project (Python)](https://github.com/Almas1989/movie_corel)
+## 4. 🎬 [Movie Correlation Project (Python)](https://github.com/Almas1989/movie_corel)
 
 - [**Dataset**](https://github.com/Almas1989/movie_corel/blob/main/movies.csv)
 - [**REPORT**](https://github.com/Almas1989/movie_corel/blob/main/report.md)
@@ -77,7 +96,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 4. 🧪 [A/B Test – Marketing Campaign Analysis (Python)](https://www.kaggle.com/code/almasscorp/ab-test)
+## 5. 🧪 [A/B Test – Marketing Campaign Analysis (Python)](https://www.kaggle.com/code/almasscorp/ab-test)
 
 - **Description**:  
   This project evaluates the effectiveness of a new landing page through A/B testing. The analysis includes:
@@ -93,7 +112,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 5. 📈 [Marketing Cohort Analysis (Python)](https://github.com/Almas1989/marketing_cohort_analysis)
+## 6. 📈 [Marketing Cohort Analysis (Python)](https://github.com/Almas1989/marketing_cohort_analysis)
 
 - [**Dataset**](https://github.com/Almas1989/marketing_cohort_analysis/tree/main/marketing_dataset)
 - [**Jupyter notebook with code**](https://github.com/Almas1989/marketing_cohort_analysis/blob/main/marketing-insights-for-e-commerce-company.ipynb)
@@ -114,7 +133,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 6. 📂 [CSV Processor – Automated Data Cleaning (Python)](https://github.com/Almas1989/csv_processor)
+## 7. 📂 [CSV Processor – Automated Data Cleaning (Python)](https://github.com/Almas1989/csv_processor)
 
 - **Description**:  
   This project automates the processing of raw CSV files to prepare them for analysis. It includes:  
@@ -131,7 +150,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 7. 📚 [Wikipedia Parser – Async Scraper + AI Summarizer](https://github.com/Almas1989/wiki_parser)
+## 8. 📚 [Wikipedia Parser – Async Scraper + AI Summarizer](https://github.com/Almas1989/wiki_parser)
 
 - **Description**:  
   Asynchronous API that recursively scrapes Wikipedia articles (up to 5 levels deep) and generates AI-powered summaries using DeepSeek API. Parsed articles, their relationships, and summaries are stored in a PostgreSQL database.
@@ -150,7 +169,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ---
 
-## 8. 🍽️ [Restaurant Dish Detection – YOLOv11 Object Detector](https://github.com/Almas1989/comp_vision_proj)
+## 9. 🍽️ [Restaurant Dish Detection – YOLOv11 Object Detector](https://github.com/Almas1989/comp_vision_proj)
 
 - **Description**:  
   End-to-end object detection pipeline for recognizing 6 classes of dishes and tableware in restaurant settings. Built using YOLOv11 with custom training, evaluation, and video visualization. Data preparation includes manual annotation, augmentation, and class balancing.
