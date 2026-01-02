@@ -7,11 +7,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 ## 📁 Projects Overview
 
-## 1. 🌍 [Earthquake Data ETL Pipeline (Airflow + Docker)](https://github.com/Almas1989/data_engineering_pp_1)
-
-- [**Repository**](https://github.com/Almas1989/data_engineering_pp_1)
-- [**DAGs Code**](https://github.com/Almas1989/data_engineering_pp_1/tree/main/dags)
-- [**Infrastructure Config**](https://github.com/Almas1989/data_engineering_pp_1/blob/main/docker-compose.yaml)
+## 1. 🌍 [Earthquake Data ETL Pipeline (Data Lakehouse)](https://github.com/Almas1989/data_engineering_pp_1)
 
 - **Description**:  
   A full-cycle End-to-End Data Engineering project that deploys a containerized data platform. The pipeline automates the ingestion of real-time earthquake data from the USGS API. Key workflow stages include:
@@ -22,7 +18,7 @@ Welcome to my portfolio of data projects. This repository includes a selection o
 
 - **Skills Practiced**: `ETL pipeline design, Airflow orchestration, Data Modeling (Bronze/Silver/Gold), API integration, S3 Data Lake management, Docker containerization, SQL transformations`
 
-- **STACK**: Python, Apache Airflow, PostgreSQL, MinIO (S3), Docker, Metabase, Pandas
+- **STACK**: Python, Apache Airflow, PostgreSQL, MinIO (S3), Docker, Metabase
 
 ---
 
