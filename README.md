@@ -7,7 +7,7 @@ Portfolio of data engineering and analytics projects demonstrating ETL pipelines
 
 ## 📁 Projects Overview
 
-## 1. 🎵 [Kafka Streaming Platform – Music Events Pipeline](https://github.com/Almas1989/kafka-streaming-project)
+## 1. 🎵 [Kafka Streaming Platform – Music Events Pipeline](https://github.com/Almas1989/kafka_de_project)
 
 - **Description**: Real-time event streaming platform simulating music service user behavior. Implements producer-consumer pattern with dual storage strategies: S3 Data Lake (MinIO) and real-time analytics (ClickHouse).
 
