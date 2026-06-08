@@ -117,4 +117,14 @@ Portfolio of data engineering and analytics projects demonstrating ETL pipelines
 
 ---
 
+## 12. 🏞️ [Data Lakehouse – Trino + Iceberg + Spark + MinIO](https://github.com/Almas1989/pet_project_trino_data_lake1)
+
+- **Description**: One-command local lakehouse built with Docker Compose. Apache Iceberg ACID tables stored on MinIO (S3) and managed through an Iceberg REST Catalog, with two decoupled compute engines on shared data — Spark (PySpark) for batch ETL writes and Trino for interactive SQL analytics. Includes a federated PostgreSQL connector so Trino can join lake data with an external OLTP source in a single query.
+
+- **Skills**: `Lakehouse architecture, ACID table format (Iceberg), Decoupled storage & compute, Federated queries, REST catalog & metastore, Spark/Trino interoperability, Docker Compose orchestration`
+
+- **Stack**: Trino, Apache Spark (PySpark), Apache Iceberg, MinIO (S3), PostgreSQL, Docker
+
+---
+
 ⭐ **Connect**: If you find these projects useful, star the repository and let's connect!
